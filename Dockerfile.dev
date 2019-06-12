@@ -1,0 +1,12 @@
+FROM node:10.15-alpine
+
+ENV HOME /home/node
+WORKDIR $HOME/app
+
+COPY package.json yarn.lock $HOME/app/
+
+RUN yarn install
+
+USER node
+
+CMD ["node", "src/index.js"]

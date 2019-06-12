@@ -1,0 +1,11 @@
+[ignore]
+
+[include]
+
+[options]
+suppress_comment= \\(.\\|\n\\)*\\$FlowSuppress
+suppress_comment= \\(.\\|\n\\)*\\$FlowFixMe
+module.system=haste
+module.file_ext=.js
+
+[libs]

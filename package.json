@@ -1,0 +1,23 @@
+{
+  "name": "atv-video-downloader",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel --verbose src -d build/"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "throat": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/register": "^7.4.0",
+    "babel-preset-env": "^1.7.0",
+    "flow-bin": "^0.96.0",
+    "prettier": "^1.16.4"
+  }
+}
