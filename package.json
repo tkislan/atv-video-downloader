@@ -7,7 +7,7 @@
     "build": "babel --verbose src -d build/"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "throat": "^4.1.0"
   },
   "devDependencies": {
